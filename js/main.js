@@ -20,3 +20,5 @@ function myFunction() {
 document.querySelector('.menu-btn').addEventListener('click', () => 
 document.querySelector('.navbar-nav').classList.toggle('show'));
 
+document.querySelector('.nav-item').addEventListener('click', () => 
+document.querySelector('.nav-link').scrollBy.apply('scroll'));
